@@ -1,0 +1,4 @@
+- name: Create file /u01
+  file:
+    path: "/u01/team_b.txt"
+    state: touch
