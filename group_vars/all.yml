@@ -1,1 +1,4 @@
-var_repo: 'https://github.com/jembim/2017-git-bootcamp.git'
+role1_path: "/u01/Role1_Sub/FileCreated.txt"
+role2_repo: "https://github.com/jembim/2017-git-bootcamp.git"
+role2_dest: "/u01"
+role3_src: "/u01/Role1_Sub"

@@ -1,0 +1,4 @@
+- name: Copy directory
+  copy:
+    src: "{{ role3_src }}"
+    dest: /tmp

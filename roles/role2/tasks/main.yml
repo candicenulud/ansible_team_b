@@ -1,0 +1,6 @@
+- name: Clone 
+  git:
+    repo: "{{ role2_repo }}"
+    dest: "{{ role2_dest }}"
+    clone: yes
+    update: yes

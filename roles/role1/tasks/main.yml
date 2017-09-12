@@ -1,0 +1,4 @@
+- name: Create a file
+  file:
+    path: "{{ role1_path }}"
+    state: touch
