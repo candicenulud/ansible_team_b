@@ -1,10 +1,6 @@
-- name: Create directory
-  file:
-    path: "/u01/devops_bootcamp"
-    mode: 0755
 - name: Clone Git
   git:
-    repo: 'https://github.com/jembim/2017-git-bootcamp.git'
+    repo: "{{ var_repo }}"
     dest: /u01/devops_bootcamp
     clone: yes
     update: yes
